@@ -1,14 +1,13 @@
-'''flowchart LR
-
-    A([Sugar Industry<br>Strategies]) --> B([Commercial Determinants<br>of Health (CDoH)])
-    B --> C([Targeted Marketing,<br>Political Lobbying,<br>Price Manipulation,<br>Research Interference])
-    C --> D([Excessive Sugar Consumption])
+flowchart LR
+    A["Sugar Industry\nStrategies"] --> B["Commercial Determinants\nof Health (CDoH)"]
+    B --> C["Targeted Marketing,\nPolitical Lobbying,\nPrice Manipulation,\nResearch Interference"]
+    C --> D["Excessive Sugar\nConsumption"]
 
     subgraph SDOH [Social Determinants of Health]
-    E([Economic Stability<br>(e.g., poverty, food insecurity)]) 
-    F([Neighborhood and<br>Built Environment<br>(e.g., food deserts,<br>food swamps)])
-    G([Education and<br>Health Literacy])
-    H([Social/Cultural<br>Contexts<br>(e.g., chronic stress, <br> cultural norms)])
+    E["Economic Stability\n(e.g., poverty,\nfood insecurity)"]
+    F["Neighborhood & Built\nEnvironment\n(e.g., food deserts,\nfood swamps)"]
+    G["Education &\nHealth Literacy"]
+    H["Social/Cultural\nContexts\n(e.g., chronic stress)"]
     end
 
     E --> D
@@ -16,12 +15,12 @@
     G --> D
     H --> D
     
-    D --> I([Health Impacts:<br>Obesity, T2DM,<br>CVDs, Cancer,<br>Immune/Cognitive<br>Dysfunction])
-    D --> J([Social Inequities<br>Exacerbated])
+    D --> I["Health Impacts:\nObesity, T2DM,\nCVDs, Cancer,\nImmune/Cognitive\nDysfunction"]
+    D --> J["Social Inequities\nExacerbated"]
 
-    A --> K([Environmental<br>Degradation:<br>Deforestation,<br>Water/Air Pollution,<br>Biodiversity Loss])
-    K --> L([Planetary Health<br>Threats])
-    K --> M([Disproportionate<br>Harm to Marginalized<br>Populations])
+    A --> K["Environmental\nDegradation:\nDeforestation,\nPollution,\nBiodiversity Loss"]
+    K --> L["Planetary Health\nThreats"]
+    K --> M["Disproportionate\nHarm to Marginalized\nPopulations"]
     
     M --> J
-    I --> J'''
+    I --> J

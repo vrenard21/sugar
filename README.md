@@ -1,4 +1,4 @@
-[[[flowchart LR
+'''flowchart LR
 
     A([Sugar Industry<br>Strategies]) --> B([Commercial Determinants<br>of Health (CDoH)])
     B --> C([Targeted Marketing,<br>Political Lobbying,<br>Price Manipulation,<br>Research Interference])
@@ -24,4 +24,4 @@
     K --> M([Disproportionate<br>Harm to Marginalized<br>Populations])
     
     M --> J
-    I --> J]]]
+    I --> J'''
